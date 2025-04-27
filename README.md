@@ -15,6 +15,17 @@ Você deve criar 6 subdominios do tipo 'A' na Cloudflare
 
 ## 💽 Instalação
 
+Opção 1 - Comando em uma linha (Recomendado)
+
+git clone https://github.com/automacoescomerciaisintegradas/portainer.git
+
+# 1. Baixar o script de instalação
+
+curl -fsSL https://github.com/automacoescomerciaisintegradas/portainer install.sh > install.sh
+
+# 2. Executar o script com privilégios de root
+sudo bash install.sh
+
 ## Caso  instância do Portainer expire
 
 Abra o terminal e rode os seguintes comandos:
@@ -27,19 +38,12 @@ Abra o terminal e rode os seguintes comandos:
 
 > 🚀 Bem-vindo a Automaçoes Comerciais Integradas
 
-echo -e "\e[32m
-  ┌───┐ ┌───┐ ┌───┐
-  │ A │ │ C │ │ I │
-  └───┘ └───┘ └───┘
+
         \   ^__^
          \  (oo)\_______
             (__)\       )\/\
                 ||----w |
                 ||     ||
-\e[34m
- ┌───────────────────────────────┐
- │ automações comerciais        │
- │ integradas                   │
- └───────────────────────────────┘
+
 
 
