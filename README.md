@@ -32,8 +32,8 @@ para mudar para modo swarm
 
 docker swarm init --advertise-addr= SEU IP
 
-## Corra !!!! pra cessar sua stack via brosser !!!! 
-Caso  instância do Portainer expire
+## Corra !!!! pra Acessar sua stack via brosser !!!! 
+Caso  instância do Portainer expire.
 
 Abra o terminal e rode os seguintes comandos:
 
