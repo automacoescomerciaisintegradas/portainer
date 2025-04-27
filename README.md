@@ -1,7 +1,7 @@
 
 ## ⚠️ Pré-requisitos
 
-Você deve criar 6 subdominios do tipo 'A' na Cloudflare
+Você deve criar 3 dominios do tipo 'A' na Cloudflare
 *Status do Proxy deve esta desligado
 
 <p>portainer</p>
@@ -26,7 +26,14 @@ curl -fsSL https://github.com/automacoescomerciaisintegradas/portainer install.s
 # 2. Executar o script com privilégios de root
 sudo bash install.sh
 
-## Caso  instância do Portainer expire
+Após a instaçao portainer está em modo  "standalone" 
+
+para mudar para modo swarm
+
+docker swarm init --advertise-addr= SEU IP
+
+## Corra !!!! pra cessar sua stack via brosser !!!! 
+Caso  instância do Portainer expire
 
 Abra o terminal e rode os seguintes comandos:
 
@@ -36,7 +43,7 @@ Abra o terminal e rode os seguintes comandos:
 <p>docker compose pull portainer
 <p>docker compose up -d
 
-> 🚀 Bem-vindo a Automaçoes Comerciais Integradas
+> 🚀 Bem-vindo a Automaçoes Comerciais Integradas 
 
 
         \   ^__^
