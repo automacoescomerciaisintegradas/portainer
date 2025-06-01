@@ -33,6 +33,12 @@ permiçoes do script de instalaçao:
 sudo chmod +x install.sh
 sudo bash install.sh
 
+# 3. Entrar na pasta portainer e digitar:
+
+- Para iniciar os serviços, use o seguinte comando:
+
+./install.sh
+
 Após a instaçao portainer está em modo  "standalone" 
 
 para mudar para modo swarm
