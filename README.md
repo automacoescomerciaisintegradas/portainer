@@ -23,7 +23,14 @@ git clone https://github.com/automacoescomerciaisintegradas/portainer.git
 
 curl -fsSL https://github.com/automacoescomerciaisintegradas/portainer install.sh > install.sh
 
+permiçoes do script de instalaçao:
+sudo chmod +x install.sh
+chmod +x install.sh
+
+
 # 2. Executar o script com privilégios de root
+permiçoes do script de instalaçao:
+sudo chmod +x install.sh
 sudo bash install.sh
 
 Após a instaçao portainer está em modo  "standalone" 
